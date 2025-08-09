@@ -1,0 +1,74 @@
+:root {
+  /* Brand / primary */
+  --primary-start: #667eea;
+  --primary-end: #764ba2;
+  --focus-ring: rgba(102, 126, 234, 0.1);
+
+  /* Backgrounds */
+  --bg-gradient-start: #f5f7fa;
+  --bg-gradient-end: #c3cfe2;
+  --card-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.06);
+  --overlay-bg: rgba(255, 255, 255, 0.9);
+  --divider: #eeeeee;
+
+  /* Text */
+  --text-primary: #1f2937; /* gray-800 */
+  --text-muted: #6b7280; /* gray-500 */
+  --header-text: #ffffff;
+
+  /* Inputs */
+  --input-bg: #f8f9fa;
+  --input-border: #e1e5e9;
+
+  /* Status / error */
+  --error-bg: #ffeeee;
+  --error-border: #ffcccc;
+  --error-text: #c66;
+
+  /* Code blocks */
+  --code-bg: #2d3748; /* slate-800 */
+  --code-text: #e2e8f0; /* slate-200 */
+
+  /* Pills / avatars */
+  --avatar-bg: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] {
+  --bg-gradient-start: #0f172a; /* slate-900 */
+  --bg-gradient-end: #1f2937;   /* gray-800 */
+  --card-bg: #111827;           /* gray-900 */
+  --card-border: rgba(255, 255, 255, 0.08);
+  --overlay-bg: rgba(0, 0, 0, 0.6);
+  --divider: rgba(255, 255, 255, 0.08);
+
+  --text-primary: #e5e7eb;      /* gray-200 */
+  --text-muted: #9ca3af;        /* gray-400 */
+  --header-text: #ffffff;
+
+  --input-bg: #0b1220;          /* near slate-950 */
+  --input-border: rgba(255, 255, 255, 0.12);
+
+  --error-bg: rgba(190, 18, 60, 0.12);
+  --error-border: rgba(244, 63, 94, 0.35);
+  --error-text: #f87171;        /* red-400 */
+
+  --code-bg: #0b1220;           /* deep slate */
+  --code-text: #cbd5e1;         /* slate-300 */
+
+  --avatar-bg: rgba(255, 255, 255, 0.12);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
